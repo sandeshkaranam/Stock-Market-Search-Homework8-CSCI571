@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.checkbox-inline .toggle {
+  margin-left: 0px !important;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow:auto;
+}
+
+.forError{
+  border: 3px solid red;
+}
+
+.animate-hide {
+  
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  position: absolute;
+  
+  -webkit-transition: all linear 0.5s;
+  transition:all linear 0.5s;
+ 
+ }
+ 
+ .animate-hide.ng-hide {
+  
+  opacity: 100;
+  transform: translateX(-100%);
+
+   
+ }
+
+ .animate-hide1 {
+  
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  
+  
+  position: absolute;
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+   /* left: 100%;
+   margin-right:100% ; */
+ }
+ 
+ .animate-hide1.ng-hide {
+  transform: translateX(100%);
+  opacity: 100;
+   /* left: -100%;
+   margin-left: 100%; */
+   
+ }
